@@ -7,4 +7,5 @@
 ![Screenshot 2024-03-20 204722](https://github.com/Amisha0971/GIVE-US-RATING-HTML-CSS-JS/assets/136344215/1826a19c-a0a4-4cf8-b056-80e4f05cdb82)
 
 ![Screenshot 2024-03-20 204735](https://github.com/Amisha0971/GIVE-US-RATING-HTML-CSS-JS/assets/136344215/5bac803b-10bb-41e5-adfd-2d71a744c980)
+
 ![Screenshot 2024-03-20 204746](https://github.com/Amisha0971/GIVE-US-RATING-HTML-CSS-JS/assets/136344215/12658a61-3df0-4acd-8dbb-1779987c4ec4)
