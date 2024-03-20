@@ -1,0 +1,43 @@
+body {
+    background-color: pink; /* Set the background color to pink */
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: black;
+    overflow: hidden; /* Ensure content inside the oval container doesn't overflow */
+  }
+  
+  .rating-container {
+    text-align: center;
+  }
+  
+  .stars {
+    font-size: 3em;
+  }
+  
+  .star {
+    display: inline-block;
+    cursor: pointer;
+    color: white; /* Set stars color to white */
+  }
+  
+  .star:hover,
+  .star.active {
+    color: yellow;
+  }
+  
+  .rating-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white; /* Set color to white */
+  }
+  

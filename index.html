@@ -1,52 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Star Rating</title>
-<style>
-  .stars span {
-    cursor: pointer;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Star Rating Animation</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="stars">
-  <span onclick="rate(1)">⭐</span>
-  <span onclick="rate(2)">⭐</span>
-  <span onclick="rate(3)">⭐</span>
-  <span onclick="rate(4)">⭐</span>
-  <span onclick="rate(5)">⭐</span>
-</div>
-<p id="rating-label">Rating: <span id="rating-value">-</span></p>
-
-<script>
-function rate(stars) {
-  const ratingValue = document.getElementById('rating-value');
-  const ratingLabel = document.getElementById('rating-label');
-
-  ratingValue.textContent = stars;
-
-  switch(stars) {
-    case 1:
-      ratingLabel.textContent = 'Poor';
-      break;
-    case 2:
-      ratingLabel.textContent = 'Fair';
-      break;
-    case 3:
-      ratingLabel.textContent = 'Good';
-      break;
-    case 4:
-      ratingLabel.textContent = 'Very Good';
-      break;
-    case 5:
-      ratingLabel.textContent = 'Excellent';
-      break;
-    default:
-      ratingLabel.textContent = '-';
-  }
-}
-</script>
+  <div class="container">
+    <div class="rating-container">
+      <div class="stars" id="rating-stars"></div>
+      <div class="rating-info" id="rating-info">Give us rating</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
