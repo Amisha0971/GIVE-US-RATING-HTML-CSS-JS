@@ -10,3 +10,4 @@
 ![Screenshot 2024-03-20 204735](https://github.com/Amisha0971/GIVE-US-RATING-HTML-CSS-JS/assets/136344215/5bac803b-10bb-41e5-adfd-2d71a744c980)
 
 ![Screenshot 2024-03-20 204746](https://github.com/Amisha0971/GIVE-US-RATING-HTML-CSS-JS/assets/136344215/12658a61-3df0-4acd-8dbb-1779987c4ec4)
+----------------------------------------------------------------------------
